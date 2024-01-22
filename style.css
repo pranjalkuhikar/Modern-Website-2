@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(245, 246, 231);
+  overflow: hidden;
+}
+
+nav {
+  position: relative;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav #logo h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 33px;
+}
+
+nav #navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+nav #logo #circle {
+  position: absolute;
+  top: 40px;
+  left: 139px;
+  height: 45px;
+  width: 45px;
+  background-color: transparent;
+  border: 1px solid #484949;
+  border-radius: 50%;
+}
+
+nav #navbar h2 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+nav #menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+nav #menu h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+nav #menu i {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+main {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main #images img {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  padding-left: 10%;
+  object-position: center;
+  border-radius: 40px;
+}
+
+main #heading1 {
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  font-size: 50px;
+  font-weight: 900;
+  width: 80%;
+}
+
+main #para {
+  display: grid;
+  align-items: self-start;
+  justify-content: space-between;
+  height: 100%;
+  padding: 60px;
+  color: rgb(70, 70, 70);
+}
+
+main #para #circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 50px;
+  background-color: transparent;
+  border: 1px solid #484949;
+  border-radius: 50%;
+}
+
+main #para #circle i {
+  font-size: 80px;
+}
+
+#image {
+  height: calc(100% - 585px);
+}
+
+#main #image img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#main #heading {
+  width: 100%;
+}
+#main #heading H1 {
+  font-size: 60px;
+}
